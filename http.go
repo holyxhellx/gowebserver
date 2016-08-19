@@ -21,6 +21,16 @@ func to_roman(n int)  string {
  	return "IV"
     } else if n == 5 {
 	return "V"
+    } else if n == 6 {
+        return "VI"
+    } else if n == 7 {
+        return "VII"
+    } else if n ==8 {
+        return "VIII"
+    } else if n ==9 {
+        return "IX"
+    } else if n == 10 {
+        return "X"
     }
     return "I"
 }
